@@ -3,9 +3,9 @@ Import the .sql file
 Run the index.php file in browser
 
 Login Details for admin
-username = admin
-password = admin
+username = Madan
+password = Madan
 
 Login Details for donor(user)
-username = sagar
-password = sagar
+username = Madan
+password = Madan
