@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
+</head>
+<style>
+body{
+	font-family: 'Titillium Web', sans-serif;
+}
+	input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+     background-color: #F3EFEE;
+
+}
+input[type=text]:hover{
+    transition: 0.1s ease-in;
+    background-color: #918989;
+ }
+ input[type=submit] {
+    background-color: #11AB16;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 20px;
+    padding: 15px;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+input[type=submit]:hover {
+    background-color: #0C9310;
+}
+.container {
+	border:1px solid #F2E9E9;
+    border-radius: 5px;
+    padding: 40px;
+    display: block;
+    margin-left: 25%;
+    margin-right: auto;
+    margin-top:60px;
+    width: 40%;
+}
+.title{
+	margin-left: 6%;
+}
+</style>
+<body>
+	<div class="title">
+        <h2>You are now registering yourself as a user of this system.</h2>
+		<h2>Please provide the following credentials in order to register as a new user.</h2>
+	</div>
+	<div class="container">
+  <form action="register.php" method="post">
+    <label >Enter a UserName</label>
+    <input type="text"  name="uname" placeholder="Your username.." required>
+
+    <label >Enter a Password</label>
+    <input type="text"  name="pass" placeholder="Your password.." required>
+    <input type="submit" value="Register me as a user">
+</form>
+</div>
+</body>
+</html>

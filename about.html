@@ -1,0 +1,141 @@
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
+    <title></title>
+</head>
+<style>
+body{
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.wrapper{
+    width: 100%;
+    max-width: 1180px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+.wrapper:after{
+    display: block;
+    content: "";
+    clear: both;
+}
+h1.logo{
+    background-image: url(images/logo1.png);
+    background-repeat: no-repeat;
+    width: 100px;
+    text-indent: -10000px;
+    float: left;
+}
+header{
+     background-color:red;
+     top:0;
+}
+
+header nav{
+    float: right;
+}
+
+header nav h2{
+    text-indent: -10000px;
+    height: 0;
+    margin: 0;
+}
+
+header nav li{
+    float: left;
+    list-style-type: none;
+    margin: 10px 20px;
+}
+
+header nav li a{
+    text-decoration: none;
+    color: #201C1C;
+    font-size: 18px;
+}
+header nav li a:hover{
+    color: #FDFCFC;
+    transition: 0.2s ease-in;
+}
+
+#headtext{
+    font-family: Helvetica;
+    margin-top: 30px;
+    text-align: center;
+    font-size: 25px;
+    top: 300px;
+    display: block;
+}
+#btn1{
+    border-radius: 10px;
+    width: 9%;
+    background-color: #18C13A;
+    padding: 5px;
+    font-size: 20px;
+    color: white;
+     margin-left: 47%
+}
+#btn1:hover{
+    background-color: #0C9B28;
+}
+.points{
+    font-family: Helvetica;
+    margin-top: 5%;
+    display: block;
+    font-size: 25px;
+   text-align: center;
+}.points:after{
+    display: block;
+    clear: both;
+    content: "";
+}
+footer{
+     background: #3b3b3b;
+      margin-top: 100px;
+    padding: 30px 0;
+}
+
+footer:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+footer ul{
+    list-style: none;
+    color: white;
+    text-align: center;
+}
+
+</style>
+<body>
+     <header>
+            <div class="wrapper">
+                <h1 class="logo">Resto</h1>
+                <nav>
+                    <h2>Main Navigation</h2>
+                    <ul>
+                        <li><a href="">Home</a></li>
+                        <li><a href="">Campaign</a></li>
+                        <li><a href="whydonate.html">About Blood Donation</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <div id="headtext">Blood is the most precious gift that anyone can give to another person — the gift of life. A decision to donate your blood can save a life, or even several if your blood is separated into its components — red cells, platelets and plasma — which can be used individually for patients with specific conditions.</div>
+        <div class="points">Safe blood saves lives and improves health. Blood transfusion is needed for:,<br>
+
+women with complications of pregnancy, such as ectopic pregnancies and haemorrhage before, during or after childbirth,
+children with severe anaemia often resulting from malaria or malnutrition,
+people with severe trauma following man-made and natural disasters; and
+many complex medical and surgical procedures and cancer patients.<br><br>
+        <form id="btn1" action="loginDonor.php">
+        <a href="donorhome.html">Go Back</a>
+    </form>
+</body>
+<footer>
+            <div class="wrapper">
+                <ul>
+                    <li>Blood Donors Management System</li>
+                     <li>2018</li>
+                </ul>
+            </div>
+        </footer>
+</html>
