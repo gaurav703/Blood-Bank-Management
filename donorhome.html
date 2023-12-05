@@ -7,6 +7,8 @@
 <style>
 body{
     font-family: 'Titillium Web', sans-serif;
+    padding: 0;
+		margin: 0;
 }
 
 .wrapper{
@@ -28,7 +30,7 @@ h1.logo{
     float: left;
 }
 header{
-     background-color:red;
+     background-color:#1B1961;
      top:0;
 }
 
@@ -50,7 +52,7 @@ header nav li{
 
 header nav li a{
     text-decoration: none;
-    color: #201C1C;
+    color: #FDFCFC;
     font-size: 18px;
 }
 header nav li a:hover{
@@ -153,7 +155,7 @@ footer ul{
                 <nav>
                     <h2>Main Navigation</h2>
                     <ul>
-                        <li><a href="donorhome.html">Home</a></li>
+                        <li><a href="home.html">Home</a></li>
                         <li><a href="viewcampaign.php">Campaign</a></li>
                         <li><a href="about.html">About Blood Donation</a></li>
                         
@@ -168,7 +170,7 @@ footer ul{
     <div class="line"></div>
     <div class="title">
         <ul>
-            <li>Welcome to Blood Donors Management System</li>
+            <li>Welcome to Blood Bank Management System</li>
         </ul>
     </div>
     <div class="title2">
@@ -199,12 +201,12 @@ while($row=mysqli_fetch_array($result)){
      <label >Enter your Contact</label>
     <input type="text"  name="contact" placeholder="Your mobile number.." required>
 
-     <label >Select Gender</label><select name="gender">
+     <label >Select Gender</label>
+     <select name="gender">
         <option value="volvo">Select</option>
         <option value="Male">Male</option>
         <option value="Female">Female</option>
     </select>
-
      <label>Select Blood Group</label>
     <select name="blood">
         <option value="volvo">Select</option>

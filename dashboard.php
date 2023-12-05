@@ -7,6 +7,7 @@
 <style>
 body{
     font-family: 'Titillium Web', sans-serif;
+    margin: 0;
 }
 
 .wrapper{
@@ -28,7 +29,7 @@ h1.logo{
     float: left;
 }
 header{
-     background-color:red;
+     background-color:#1B1961;
      top:0;
 }
 
@@ -50,7 +51,7 @@ header nav li{
 
 header nav li a{
     text-decoration: none;
-    color: #201C1C;
+    color: #fff;
     font-size: 18px;
 }
 header nav li a:hover{
@@ -164,7 +165,7 @@ footer ul{
                 <nav>
                     <h2>Main Navigation</h2>
                     <ul>
-                        <li><a href="dashboard.php">Home</a></li>
+                        <li><a href="home.html">Home</a></li>
                         <li><a href="campaign.html">Create Campaign</a></li>
                         <li><a href="about.html">About Blood Donation</a></li>
                         

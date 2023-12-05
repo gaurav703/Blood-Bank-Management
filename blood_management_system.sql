@@ -63,11 +63,9 @@ CREATE TABLE `blood` (
 --
 
 INSERT INTO `blood` (`id`, `fname`, `lname`, `address`, `contact`, `gender`, `blood_group`) VALUES
-(1, 'Gaurav', 'Kamble', 'Nanded, India', '7709551702', 'Male', 'O+'),
+(1, 'Gaurav', 'Kamble', 'Nanded, India', '7709551702', 'Male', 'O+');
 -- (2, 'Sudeep', 'Gurung', 'Pokhara, Nepal', '2147483647', 'Male', 'A+'),
--- (4, 'Ram', 'Thapa', 'Pokhara, Nepal', '2147483647', 'Male', 'O+'),
--- (5, 'Hari', 'KC', 'Kathmandu,Nepal', '2147483647', 'Male', 'O+'),
--- (6, 'Sita', 'Gurung', 'Kathmandu,Nepal', '2147483647', 'Female', 'O-');
+
 
 -- --------------------------------------------------------
 
