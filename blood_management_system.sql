@@ -39,7 +39,7 @@ CREATE TABLE `admin` (
 --
 
 INSERT INTO `admin` (`id`, `uname`, `pass`) VALUES
-(1, 'sagar', 'sagar'),
+(1, 'Gaurav', 'Gaurav'),
 (2, 'admin', 'admin');
 
 -- --------------------------------------------------------
@@ -63,11 +63,11 @@ CREATE TABLE `blood` (
 --
 
 INSERT INTO `blood` (`id`, `fname`, `lname`, `address`, `contact`, `gender`, `blood_group`) VALUES
-(1, 'Sagar', 'Gurung', 'Pokhara, Nepal', '2147483647', 'Male', 'O-'),
-(2, 'Sudeep', 'Gurung', 'Pokhara, Nepal', '2147483647', 'Male', 'A+'),
-(4, 'Ram', 'Thapa', 'Pokhara, Nepal', '2147483647', 'Male', 'O+'),
-(5, 'Hari', 'KC', 'Kathmandu,Nepal', '2147483647', 'Male', 'O+'),
-(6, 'Sita', 'Gurung', 'Kathmandu,Nepal', '2147483647', 'Female', 'O-');
+(1, 'Gaurav', 'Kamble', 'Nanded, India', '7709551702', 'Male', 'O+'),
+-- (2, 'Sudeep', 'Gurung', 'Pokhara, Nepal', '2147483647', 'Male', 'A+'),
+-- (4, 'Ram', 'Thapa', 'Pokhara, Nepal', '2147483647', 'Male', 'O+'),
+-- (5, 'Hari', 'KC', 'Kathmandu,Nepal', '2147483647', 'Male', 'O+'),
+-- (6, 'Sita', 'Gurung', 'Kathmandu,Nepal', '2147483647', 'Female', 'O-');
 
 -- --------------------------------------------------------
 
@@ -100,8 +100,8 @@ CREATE TABLE `campaign` (
 --
 
 INSERT INTO `campaign` (`id`, `cam_name`, `org_name`, `cam_date`, `cam_time`, `cam_location`) VALUES
-(0, 'Campaign 1', 'Lions Club', '2018-12-12', '00:23:00', 'Pokhara'),
-(0, 'Campaign 2', 'Lions Club', '2019-12-02', '13:30:00', 'Kathmandu');
+(0, 'Campaign 1', 'sggs', '2023-12-12', '00:23:00', 'Nanded'),
+-- (0, 'Campaign 2', 'Lions Club', '2019-12-02', '13:30:00', 'Kathmandu');
 
 -- --------------------------------------------------------
 
@@ -148,8 +148,8 @@ CREATE TABLE `user` (
 --
 
 INSERT INTO `user` (`id`, `u_name`, `u_pass`) VALUES
-(1, 'sagar', 'sagar'),
-(2, 'sudeep', 'sudeep');
+(1, 'Madan', 'Madan'),
+(2, 'Gaurav', 'Gaurav');
 
 --
 -- Indexes for dumped tables
